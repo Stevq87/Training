@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Proyecto javascript</title>
+        <!-- estilos css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css"
+        <!--JQUERY-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!--SLIDER-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <!--mis scripts-->
+        <script type="text/javascript" src="../projecyo js/js/main.js"></script>
+        <!--Moment.js-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+
+    </head>
+    <body>
+        <section id="global">
+            <!-- Cabecera -->
+            <header>
+                <div id="logo">
+                    <h1>Proyecto js</h1>
+                </div>
+                <div class="clearFix">
+                        
+                </div>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Reloj</a></li>
+                        <li><a href="#">Sobre mi</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- Slider -->
+            <div class="bxSlider">
+                    <div><img class="img" src="../projecyo js/css/img/dog.jpg" title="dog"></div>
+                    <div><img class="img" src="../projecyo js/css/img/lago.jpg" title="lago"></div>
+                    <div><img class="img" src="../projecyo js/css/img/mountine.jpg" title="montaña"></div>
+            </div>
+            <!-- contenido -->
+            <section id="content"> 
+                <div id="posts">
+                    <!--Articulos cargados desde json-->
+                </div>         
+                <aside id="sidebar">
+                    <div id="about">
+                        <h4><span>¿Quien soy?</span></h4>
+                        <img src="../projecyo js/css/img/michael.jpg"/>
+                    </div>
+                    <p>Michael Scott ,Michael Scott ,Michael Scott ,
+                            Michael Scott ,Michael Scott ,Michael Scott ,
+                            Michael Scott ,Michael Scott ,Michael Scott ,
+                            Michael Scott ,Michael Scott ,Michael Scott.
+                    </p>
+                    <div id="login">
+                        <form>
+                                <h4><span>Identificate</span></h4>
+                                <label for="name">Nombre</label>
+                                <input type="text" name="name">
+                                <!--------------------->
+                                <label for="correo">Correo</label>
+                                <input type="text" name="correo">
+                                <!---------------------->
+                                <label for="contraseña">Contraseña</label>
+                                <input type="text" name="contraseña">
+                                <input type="submit" value="Entrar"/>
+                        </form> 
+                    </div>
+                </aside>
+                <div class="clearFix"></div>
+            </section>
+        </section>
+    <footer>
+        Practicando XD
+    </footer>
+
+    </body>
+</html>
